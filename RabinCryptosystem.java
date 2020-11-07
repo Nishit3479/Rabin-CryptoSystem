@@ -29,9 +29,8 @@ public class RabinCryptosystem {
 			BigInteger c = enc.encrypt(m, n); 
 
 			System.out.println("Encrypted Message : " + c);
-			System.out.print("Key 1 : " + key[1]);
-			System.out.print("Key 2 : " + key[2]);
-			System.out.println();
+			System.out.println("Key 1 : " + key[1]);
+			System.out.println("Key 2 : " + key[2]);
 		}
 		else if(a==2)
 		{
